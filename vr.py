@@ -75,7 +75,7 @@ while True:
         print(result)
 
     except sr.UnknownValueError:
-        print("I could not understand what you said.")
+        print("Could not understand audio. Please speak clearly.")
     except sr.RequestError:
-         print("Speech recognition service error.")
+         print("Service error. Please check your internet connection.")
          
